@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Try It",
+    "slug": "try_it_android",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39f38740-76de-43b8-b49d-ecbe5898106c"
+      }
+    },
+    "owner": "fel1k2",
+    "android": {
+      "package": "com.fel1k2.try_it_android",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    }
+  }
+}
